@@ -7,6 +7,5 @@ empty, the savage wakes up the cook and then waits until the cook
 has refilled the pot.
 
 The synchronization constraints are:
-
-• Savages cannot invoke getServingFromPot if the pot is empty.
-• The cook can invoke putServingsInPot only if the pot is empty.
+* Savages cannot invoke getServingFromPot if the pot is empty.
+* The cook can invoke putServingsInPot only if the pot is empty.
